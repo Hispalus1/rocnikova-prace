@@ -1,0 +1,128 @@
+
+
+
+
+header {
+    padding: 20px;
+    margin-top: -40px;
+    text-align: center;
+    border: black 1px solid;
+    background-image: linear-gradient(to right, rgb(143, 77, 39), rgb(236, 197, 88), rgb(133, 120, 136));
+
+}
+ 
+
+body {
+    background-image: url("../img/ajaj.jpg") !important;
+    background-attachment: fixed;
+    background-size: cover !important;
+    background-position: center !important;
+    font-family:Arial, Helvetica, sans-serif !important;
+}
+h1 {
+    font-size: 60px !important;
+    font-family: 'Arial', cursive !important;
+    text-shadow: 3px 3px 3px black;
+}
+
+main {
+    border:black solid 2px;
+    border-top: none;
+    background-color: rgba(247, 142, 128, 0.959) !important;
+}
+
+
+
+#center-text {
+    margin: 0 auto;
+}
+footer{
+    display: inline-flex;
+    text-align-last: center;
+}
+
+a {
+    color: whitesmoke !important;
+}
+
+h2 {
+    text-decoration: underline solid black 2px;
+    font-size: 40px !important;
+    text-align: center;
+    margin-top: 20px !important;
+    margin-bottom: 20px !important;
+    margin-left: auto !important;
+    margin-right: auto !important;
+}
+
+p {
+    font-size: 18px;
+}
+
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+figure {
+    text-align: center;
+}
+
+.main-img {
+    width: 70%  ;
+}
+
+header{
+    padding-top: 4cm;
+}
+
+@media only screen and (max-width: 800px) {
+    .main-img {
+        width: 80%;
+    }
+    
+}
+
+@media only screen and (max-width: 574px) {
+    .nav-link {
+        border-top: none !important;
+    }
+    .nav-link:hover {
+        border-top: none !important;
+    }
+    
+}
+
+@media only screen and (max-width: 500px) {
+    .main-img {
+        width: 100%;
+    }
+    
+}
+
+form {
+    margin-top: 20px;
+}
+.active {
+    border-bottom: whitesmoke 5px solid !important;
+    padding-top: 0px !important;
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+    margin-right: 10px;
+}
+
+.nav-link {
+    border-bottom: whitesmoke 2px solid;
+    padding-top: -2px !important;
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+    margin-right: 10px;
+    transition: 0.5s;
+}
+
+.nav-link:hover {
+    transition: 0.5s;
+    border-bottom: whitesmoke 5px solid !important;
+}
+

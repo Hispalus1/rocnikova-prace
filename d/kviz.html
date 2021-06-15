@@ -1,0 +1,229 @@
+<!doctype html>
+<html lang="cs">
+
+<head>
+  <title>Kvíz o hře Nekopara</title>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <link rel="icon" href="../img/logo.jpg" type="image/png" sizes="50x50">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <link href="kviz.css" rel="stylesheet">
+  <link href="../css/style.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css"
+    integrity="sha512-5A8nwdMOWrSz20fDsjczgUidUBR8liPYU+WymTZP1lmY9G6Oc7HlZv156XqnsgNUzTyMefFTcsFH/tnJE/+xBg=="
+    crossorigin="anonymous" />
+  <meta name="description" content="Kvíz o Nekapaře">
+  <meta name="keyword" content="Kvíz, Quiz">
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+</head>
+
+<body>
+  <nav class="navbar navbar-expand-sm bg-dark navbar-dark fixed-top">
+    <a class="navbar-brand" href="../index.html"><img class="logo" src="../img/zabijmne.png"
+      alt="Domovská stránka"></a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="collapsibleNavbar">
+      <ul class="navbar-nav">
+        <li class="nav-item">
+          <a class="nav-link" href="../a/index.html">Volumes</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="../b/index.html">Postavy</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="../c/index.html">Vývojáři</a>
+        </li>
+      </ul>
+    </div>  
+  </nav>
+  <header class="container-fluid">
+    <h1 class="text-white">Kvíz</h1>
+  </header>
+
+  <main class="container">
+    <div class="row">
+      <div id="center-text" class="col-lg-8 col-md-10 col-sm-12">
+        <form>
+            <p class="alert alert-dark otazka">1. Jak se jmenuje studio co vytvořilo Nekoparu ?</p>
+            <div class="form-group row">
+                <label for="studio" class="col-md-2 col-form-label">Jméno:</label>
+                <div class="col-md-10">
+                    <select class="form-control" name="studio" id="studio">
+                        <option>Activision</option>
+                        <option>Valve</option>
+                        <option>Neko Works</option>
+                        <option>Erik corporated</option>
+                    </select>
+                </div>
+            </div>
+            <p class="alert alert-success odpoved collapse multi-collapse" id="odpoved1">Neko works</p>
+                
+            <hr>
+            <p class="alert alert-dark otazka">2. Kolik kočkoholek můžeme potkat napříč všemi čtyřmi díly (jenom hlavní postavy) ?</p>
+            <div class="form-group row">
+                <label class="col-md-2 col-form-label">Počet</label>
+                <div class="col-md-6">
+                    <input type="number" class="form-control" name="cats" id="cats" value="3" title="Uveďte správný počet.">
+                </div>
+            </div>
+            <p class="alert alert-success odpoved collapse multi-collapse" id="odpoved2">7</p>
+                
+            <hr>
+            <p class="alert alert-dark otazka">3. V jaké zemi studoval Kashou ?  
+            </p>
+            <div class="form-group row">
+              <label for="Francie" class="col-md-3 col-form-label">Země:</label>
+              <div class="col-md-9">
+                  <div class="form-check form-check-inline">
+                      <label class="form-check-label">
+                          <input class="form-check-input" type="radio" name="karty" id="Lobelia" value="checkedValue">
+                          Lobelia 
+                      </label>
+                  </div>
+                  <div class="form-check form-check-inline">
+                      <label class="form-check-label">
+                          <input class="form-check-input" type="radio" name="karty" id="Uganda" value="checkedValue">
+                          Uganda
+                      </label>
+                  </div>
+                  <div class="form-check form-check-inline">
+                      <label class="form-check-label">
+                          <input class="form-check-input" type="radio" name="karty" id="Francie" value="checkedValue">
+                          Francie
+                      </label>
+                  </div>
+                  <div class="form-check form-check-inline">
+                      <label class="form-check-label">
+                          <input class="form-check-input" type="radio" name="karty" id="Dánsko" value="checkedValue"> Dánsko
+                      </label>
+                  </div>
+              </div>
+          </div>
+            <p class="alert alert-success odpoved collapse multi-collapse" id="odpoved3">Francie
+                </p>
+
+
+            <hr>
+            <p class="alert alert-dark otazka">4. Co jsou realné postavy ze hry Nekopara ?</p>
+            <div class="form-group row">
+                <label for="Vannila" class="col-md-3 col-form-label">Jména postav:</label>
+                <div class="col-md-9">
+                    <div class="form-check form-check-inline">
+                        <label class="form-check-label">
+                            <input class="form-check-input" type="checkbox" name="Vannila" id="Vannila" value="Vannila">Vannila
+                        </label>
+                    </div>
+                    <div class="form-check form-check-inline">
+                        <label class="form-check-label">
+                            <input class="form-check-input" type="checkbox" name="Coconut" id="Coconut" value="Coconut">Coconut
+                        </label>
+                    </div>
+                    <div class="form-check form-check-inline">
+                        <label class="form-check-label">
+                            <input class="form-check-input" type="checkbox" name="Shizue" id="Shizue" value="Shizue">Shizue
+                        </label>
+                    </div>
+                    <div class="form-check form-check-inline">
+                        <label class="form-check-label">
+                            <input class="form-check-input" type="checkbox" name="Cinnamon" id="Cinnamon" value="Cinnamon">Cinnamon
+                        </label>
+                    </div>
+                    <div class="form-check form-check-inline">
+                      <label class="form-check-label">
+                          <input class="form-check-input" type="checkbox" name="Akame" id="Akame" value="Akame">Akame
+                      </label>
+                  </div>
+                  <div class="form-check form-check-inline">
+                    <label class="form-check-label">
+                        <input class="form-check-input" type="checkbox" name="Rias" id="Rias" value="Rias">Rias
+                    </label>
+                </div>
+                </div>
+            </div>
+            <p class="alert alert-success odpoved collapse multi-collapse" id="odpoved4">Vannila, Coconut, Cinnamon
+                </p>
+
+            <hr>
+            <p class="alert alert-dark otazka">5. Jaký rok vyšla Nekopara vol. 1 ?</p>
+            <div class="form-group row">
+                <label for="odpoved5" class="col-md-4 col-form-label">Datum vydání</label>
+                <div class="range-wrap">
+                  <input type="number" class="range" min="2010" max="2020" step="1" placeholder="2016">
+                  <output></output>
+                </div>
+            </div>
+            <p class="alert alert-success odpoved collapse multi-collapse" id="odpoved5">2014
+                </p>
+
+            <hr>
+            <p class="alert alert-dark otazka">6. Jaký rok vyšla Nekopara vol. 4 ?</p>
+            <div class="form-group row">
+                <label for="odpoved6" class="col-md-4 col-form-label">Datum vydání</label>
+                <div class="range-wrap">
+                  <input type="number" class="range" min="2010" max="2020" step="1" placeholder="2016">
+                  <output></output>
+                </div>
+            </div>
+            <p class="alert alert-success odpoved collapse multi-collapse" id="odpoved6">2020
+                </p>
+
+            <hr>
+            <p class="alert alert-dark otazka">7. Jaký je celý název hry Nekopara ? </p>
+            <div class="form-group row">
+                <label for="napsat" class="col-md-2 col-form-label">Nekopara:</label>
+                <div class="col-md-10">
+                    <textarea class="form-control" name="napsat" id="napsat" rows="1" placeholder="Doplň zbytek názvu"></textarea>
+                </div>
+            </div>
+            <p class="alert alert-success odpoved collapse multi-collapse" id="odpoved7">Nekopara Cats Paradise
+                </p>
+
+            <div class="form-group row">
+                <div class="offset-sm-2 col-sm-10">
+                    <button type="button" class="btn btn-primary" data-toggle="collapse" data-target=".multi-collapse" aria-expanded="false" aria-controls="odpoved1 odpoved2 odpoved3 odpoved4 odpoved5 odpoved6 odpoved7">Řešení kvízu</button>
+                </div>
+            </div>
+        </form>
+      </div>
+    </div>
+  </main>
+
+    <footer id="footerr" class="container-fluid bg-dark p-3">
+      <div class="row">
+        <div id="zapati1" class="col-xl-4 col-lg-4 col-md-12 p-2">
+          <i id="neco" data-toggle="collapse" data-target="#demo" class="bg-dark border-dark"><i
+              class="fa fa-id-card-o fa-3x" aria-hidden="true"></i></i>
+          <div id="demo" class="collapse">Lukáš Hrňa - IT1</div>
+        </div>
+        <div id="zapati" class="col-xl-4 col-lg-4 col-md-12 p-2 border-left border-right">
+         <img src="../img/logodone.png" alt="Nekopara: Logo" width="50">
+        </div>
+        <div id="zapati2" class="col-xl-4 col-lg-4 col-md-12 p-2 col-md-border-none">
+          <a href="https://www.youtube.com/user/nekoworksofficial" id="odkaz" target="_blank"><i
+              class="fa fa-youtube-play fa-3x pr-3" aria-hidden="true"></i></a><a href="https://nekopara.fandom.com/wiki/Nekopara_Wiki"
+            id="odkaz1" target="_blank"><i class="fa fa-globe fa-3x pr-3" aria-hidden="true"></i></a><a
+            href="https://store.steampowered.com/app/333600/NEKOPARA_Vol_1/?l=czech" target="_blank" id="odkaz2"><i
+              class="fa fa-steam fa-3x" aria-hidden="true"></i></a>
+        </div>
+      </div>
+
+  </footer>
+
+
+  
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+    integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+    integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>

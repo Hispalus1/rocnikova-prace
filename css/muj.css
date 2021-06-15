@@ -1,0 +1,35 @@
+body{
+    background-image: url("../img/ajaj.jpg")!important;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    height: 100%;
+}
+a.link{
+    color: rgb(0, 202, 202)!important;
+}
+a.link:hover{
+    color: aqua!important;
+}
+
+.active {
+    border-bottom: whitesmoke 5px solid !important;
+    padding-top: 0px !important;
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+    margin-right: 10px;
+}
+
+.nav-link {
+    border-bottom: whitesmoke 2px solid;
+    padding-top: -2px !important;
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+    margin-right: 10px;
+    transition: 0.5s;
+}
+
+.nav-link:hover {
+    transition: 0.5s;
+    border-bottom: whitesmoke 5px solid !important;
+}
